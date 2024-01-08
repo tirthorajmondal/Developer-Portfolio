@@ -3,6 +3,10 @@ body {
     font-family: 'Open Sans', sans-serif;
 }
 
+section {
+    margin: 130px 100px;
+}
+
 .section-title {
     color: #181818;
     text-align: center;
@@ -10,7 +14,13 @@ body {
     font-weight: 700;
 }
 
-/* Primary color  */
+.section-description {
+    color: #757575;
+    text-align: center;
+    font-size: 18px;
+    padding: 50px 100px;
+}
+
 .orange-primary {
     color: #FD6E0A;
 
@@ -118,21 +128,18 @@ nav a {
 .about {
     border-radius: 10px;
     background-color: #FFF8F3;
-    margin: 130px 230px;
+    margin: 130px 100px;
+    padding: 100px 120px;
 }
 
-.section-description {
-    color: #757575;
-    text-align: center;
-    font-size: 18px;
-    line-height: 30px;
-}
 
-.about-info-container{
+
+.about-info-container {
     display: flex;
     justify-content: space-around;
     text-align: center;
 }
+
 .info-title {
     color: #757575;
     font-size: 20px;
@@ -143,3 +150,77 @@ nav a {
     font-size: 20px;
     font-weight: 700;
 }
+
+/* skill related styles  */
+
+.skills {
+    display: flex;
+}
+
+.skill-info {
+    padding: 30px;
+    margin: 20px;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.1);
+}
+
+.skill-info-img {
+    width: 40px;
+    height: 44px;
+}
+
+.skill-info-title {
+    color: #181818;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.skill-info-description {
+    color: #757575;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+/* resume styles */
+
+.resume-column-title {
+    color: #474747;
+    font-size: 30px;
+    font-weight: 700;
+    margin-top: 100px;
+}
+
+.resume-container {
+    display: flex;
+    margin-right: 10px;
+    margin-right: 20px;
+}
+
+.resume-item {
+    margin: 30px 0 30px 0;
+}
+
+.resume-item-title {
+    color: #474747;
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.resume-item-institute {
+    color: #757575;
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 10px;
+}
+
+.resume-item-description {
+    color: #757575;
+    font-size: 16px;
+    margin-top: 20px;
+
+}
+
+.resume-container hr {
+    margin-right: 25px;
+}
+
+
